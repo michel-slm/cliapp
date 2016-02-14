@@ -27,9 +27,6 @@ Homepage: http://liw.fi/cliapp/
 '''
 
 
-__version__ = '1.20160109'
-
-
 from .util import MemoryProfileDumper
 from .fmt import TextFormat
 from .app import Application, AppException
@@ -43,6 +40,9 @@ from .hook import Hook, FilterHook
 from .hookmgr import HookManager
 from .plugin import Plugin
 from .pluginmgr import PluginManager
+
+
+__version__ = '1.20160109'
 
 
 __all__ = locals()
